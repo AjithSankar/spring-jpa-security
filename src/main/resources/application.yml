@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-jpa-security
+  datasource:
+    name: blog
+    generate-unique-name: false
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
